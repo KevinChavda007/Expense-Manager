@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string-array name="Select_Income_Category">
+        <item>Salary</item>
+        <item>Awards</item>
+        <item>Grants</item>
+        <item>Refunds</item>
+        <item>Coupons</item>
+    </string-array>
+
+    <string-array name="Select_Expense_Category">
+        <item>Food</item>
+        <item>Bills</item>
+        <item>Transportation</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+    </string-array>
+
+    <string-array name="Select_Payment_Method">
+        <item>Cash</item>
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aswdc.expensesmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Design.AddExpenseCategory">
+        </activity>
+        <activity android:name=".Design.AddIncomeCategory"
+            android:parentActivityName=".Design.AddIncome"/>
+        <activity android:name=".Design.Settings_Add_Category"
+            android:parentActivityName=".Design.Settings"/>
+        <activity
+            android:name=".Design.Settings"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity android:name=".Fragment.Fragment_Income_Category"
+            android:parentActivityName=".Design.Settings"/>
+        <activity android:name=".Fragment.Fragment_Expenses_Category"
+            android:parentActivityName=".Design.Settings"/>
+        <activity
+            android:name=".Design.ViewExpense"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity android:name=".Design.ViewIncome" />
+        <activity
+            android:name=".Design.Reports"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity
+            android:name=".Design.AllTransaction"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity
+            android:name=".Design.AddIncome"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity
+            android:name=".Design.AddExpense"
+            android:parentActivityName=".Design.DashboardActivity" />
+        <activity android:name=".Design.DashboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
